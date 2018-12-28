@@ -1,11 +1,12 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <ul>
-      <li>
-        <router-link to="/Navigation">Buttons</router-link>
-      </li>
-    </ul>
+    <div>
+
+      <p><router-link to="/Navigation">Buttons</router-link></p>
+      <p><router-link to="/datePicker">时间选择器 Date/month picker：v-date-picker</router-link></p>
+    </div>
+
   </div>
 </template>
 
